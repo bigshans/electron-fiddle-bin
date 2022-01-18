@@ -1,0 +1,16 @@
+pkgbase = electron-fiddle-bin
+	pkgdesc = The easiest way to get started with Electron
+	pkgver = 0.27.2
+	pkgrel = 1
+	url = https://electronjs.org/fiddle
+	arch = x86_64
+	license = MIT
+	depends = electron
+	provides = electron-fiddle-bin
+	provides = electron-fiddle-bin
+	conflicts = electron-fiddle
+	conflicts = electron-fiddle-git
+	source = fiddle-0.27.2.deb::https://github.com/electron/fiddle/releases/download/v0.27.2/electron-fiddle_0.27.2_amd64.deb
+	sha256sums = d40aa80dc2a3467855cb3eaf60b3a529bbdc92c060f45e4c76b39b3c172b4d5e
+
+pkgname = electron-fiddle-bin
